@@ -1,0 +1,281 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    width: 1280px;
+    height: 720px;
+    position: absolute;
+    color: white;
+}
+.header1 {
+    /* header */
+
+
+position: absolute;
+width: 1036.95px;
+height: 23px;
+left: 120px;
+top: 64px;
+}
+
+.title-link {
+    /* Logo */
+
+
+position: absolute;
+width: 106.59px;
+height: 22px;
+left: 9.38%;
+top: 64px;
+color: #89C5CC;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+}
+
+.home1 {
+    /* Home */
+
+background-color: transparent;
+border: none;
+outline: none;
+position: absolute;
+left: 69.04%;
+right: 26.84%;
+top: 8.89%;
+bottom: 87.92%;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+
+}
+
+.home1:hover {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #5D5278;
+    cursor: pointer;        
+}
+
+.about_train {
+background-color: transparent;
+border: none;
+outline: none;
+position: absolute;
+left: 76.91%;
+right: 19.1%;
+top: 8.89%;
+bottom: 87.92%;
+
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+
+/* 1f1534-hyfen */
+
+color: #1F1534;
+
+opacity: 0.5;
+}
+.about_train:hover {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #4F0A1D;
+    cursor: pointer;
+}
+
+.about_train2 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 84.65%;
+    right: 9.61%;
+    top: 8.89%;
+    bottom: 87.92%;
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    /* 1f1534-hyfen */
+    
+    color: #1F1534;
+    
+    opacity: 0.5;
+    }
+    .about_train2:hover {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #4F0A1D;
+        cursor: pointer;
+    }
+    .aside_title {
+        /* workouts made exclusive for you! */
+
+
+position: absolute;
+left: 9.38%;
+right: 46.88%;
+top: 27.78%;
+bottom: 52.22%;
+
+font-weight: 700;
+font-size: 48px;
+line-height: 150%;
+/* or 72px */
+
+text-transform: uppercase;
+
+color: black;
+
+mix-blend-mode: normal;
+    }
+    .aside_title span {
+        /* workouts made exclusive for you! */
+
+color: #89C5CC;
+    }
+    .aside_text {
+        /* We create exclusive and unique workouts for you. Invest in your body and get much more performance and quality of life. */
+
+
+position: absolute;
+left: 9.38%;
+right: 55.62%;
+top: calc(50% + 16px);
+bottom: calc(39.17% - 16px);
+
+
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+    }
+
+.aside_button {
+    /* Button / Primary */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px 15px;
+gap: 8px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 9.38%;
+top: 486px;
+color: white;            /* Білий текст */
+background-color: #69B99D; /* Задній фон кольору #69B99D */
+border: none;            /* Видалення рамки */
+border-radius: 5px;      /* Закруглені кути */
+font-size: 16px;     
+}
+.aside_button button {
+    width: 73px;
+height: 21px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* Background 1 */
+
+color: #F9F9F9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.images {
+    /* fitness-jump */
+
+    width: 520px;
+    height: 515 .21px;
+    position: absolute;
+    top: 108.4px;
+    left: 770px;
+    bottom: 96.4px;
+    right: 120px;
+
+}
+.custom-button {
+    padding: 14px 32px 15px;  /* Задані розміри внутрішнього відступу */
+    color: white;            /* Білий текст */
+    background-color: #69B99D; /* Задній фон кольору #69B99D */
+    border: none;            /* Видалення рамки */
+    border-radius: 5px;      /* Закруглені кути */
+    font-size: 16px;    
+    left: 120px;
+top: 486px;     /* Розмір шрифту */
+display: flex;  
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+
+  }
+
+  .custom-button:hover {
+
+    background-color: #40856D;
+    color: #F0F0F0;
+  }
+
+  .footer1 {
+    /* footer */
+
+
+position: absolute;
+width: 592px;
+height: 22px;
+left: 450px;
+top: 669px;
+position: absolute;
+color: black;
+text-align: center;
+
+
+  }
+
+  .email1 {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .email1:hover {
+    color: #5D5278;
+  }
